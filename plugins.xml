@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="FiberNetworkAutomation" version="1.3.0">
-    <description>Automated FTTH fiber network design — Vuma (GPON aerial) and Fibre Time projects.</description>
-    <about>Automates the full FTTH network planning workflow:
-Vuma: layer setup → cadastral fetch (CSG) → Overture building footprints → demand points → PON zones → cable routing → naming → QA
-Fibre Time (MOA): pole labelling → cable classification → enclosures → PON zones → feeder order → pole thickness → road crossing update
-
-First run installs geopandas + overturemaps automatically (requires internet, ~2 min).</about>
-    <version>1.3.0</version>
+  <pyqgis_plugin name="FiberNetworkAutomation" version="1.3.1">
+    <description>VeloPlan — FTTH planning: AI detection, cadastral erven + demand, Erven Studio, FT design, QA.</description>
+    <version>1.3.1</version>
     <qgis_minimum_version>3.28</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <homepage>https://velocityfibre.co.za</homepage>
     <file_name>FiberNetworkAutomation.zip</file_name>
     <author_name>BlitzFibre / VelocityFibre</author_name>
     <download_url>https://raw.githubusercontent.com/JohanVelo/veloplan-qgis/main/FiberNetworkAutomation.zip</download_url>
-    <uploaded_by>velocityfibre</uploaded_by>
-    <create_date>2026-05-07</create_date>
-    <update_date>2026-06-02</update_date>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
-    <tracker>https://github.com/VelocityFibre/VeloPlan/issues</tracker>
-    <repository>https://github.com/VelocityFibre/VeloPlan</repository>
-    <tags>fiber,ftth,gpon,automation,network,vuma,fibertime,hld</tags>
-    <icon>icon.png</icon>
+    <tags>fiber,ftth,gpon,automation,vuma,fibertime,hld</tags>
   </pyqgis_plugin>
 </plugins>
