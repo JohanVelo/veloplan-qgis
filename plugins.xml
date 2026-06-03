@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="FiberNetworkAutomation" version="1.5.3">
+  <pyqgis_plugin name="FiberNetworkAutomation" version="1.5.4">
     <description>VeloPlan — FTTH planning: AI detection, cadastral erven + demand, Erven Studio, FT design, QA.</description>
-    <version>1.5.3</version>
+    <version>1.5.4</version>
     <qgis_minimum_version>3.28</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <homepage>https://velocityfibre.co.za</homepage>
